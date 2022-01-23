@@ -75,3 +75,7 @@ console.log (luigisDebt);
 
 let one = 1, two = 2;
 console.log ( one + two );
+
+var name = "iRaph";
+const greeting = "Hello ";
+console.log( greeting + name );
