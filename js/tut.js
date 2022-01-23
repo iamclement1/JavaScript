@@ -79,3 +79,9 @@ console.log ( one + two );
 var name = "iRaph";
 const greeting = "Hello ";
 console.log( greeting + name );
+
+// A function is a piece of program wrapped in a value.
+// max and min in javascript
+console.log(Math.max(4, 10));
+console.log(Math.min(2, 5) + 100);
+console.log(Math.max(10, 4) + 100);
