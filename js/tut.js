@@ -85,3 +85,6 @@ console.log( greeting + name );
 console.log(Math.max(4, 10));
 console.log(Math.min(2, 5) + 100);
 console.log(Math.max(10, 4) + 100);
+
+let theNumber = Number(prompt("pick a number"));
+console.log("Your number is the square root of " + theNumber * theNumber);
