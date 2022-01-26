@@ -173,3 +173,11 @@ var toppings = "cookies";
 if ((flavor === 'vanilla' || flavor === 'strawberry')&&(vessel ==='cone' || vessel == 'bowl')&&(toppings == 'sprinkles' || toppings === 'cookies')){
     console.log("I'd like two scoops of " + flavor + " ice cream in a " + vessel + " with " + toppings)
 }
+
+
+// let yourName;
+// do {
+//     yourName = prompt("who are you?");
+// }while(yourName){
+//     console.log(yourName)
+// }
