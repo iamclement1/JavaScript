@@ -197,3 +197,62 @@ for (let current = 20; ; current = current + 1 ){
         break;
     }
 }
+
+// switch(prompt("What is the weather like?"))  {
+//     case "Rainy":
+//         {
+//             console.log("Remember to go out with an Umbrella")
+//         } break;
+
+//         case "Sunny": {
+//             console.log("Dress Lightly")
+//         } break;
+        
+//         case "Dry": {
+//             console.log("Go Out")
+//         }break;
+
+//         default: {
+//             console.log("Unkwown weather type")
+//         }
+// }
+
+
+
+for(let shape = "#"; shape.length < 8; shape += "#") {
+    console.log(shape)
+}
+
+
+// FIZZBUZZ
+
+for (let n = 1; n <= 100; n++){
+    let result = "";
+    if (n % 3 === 0 ) result += "FIZZ";
+    if (n % 5 === 0 ) result += "BUZZ";
+    {
+        console.log( result  || n)
+    }
+}
+
+// CHESSBOARD
+
+let size = 8;
+
+let board = "";
+
+for (let m = 0; m < size; m++) {
+    for (let n = 0; n < size; n++) {
+        if ((n + m) % 2 == 0) {
+            board += " ";
+        } else {
+            board += "#";
+        }
+    }
+    board += "\n";
+}
+
+console.log(board);
+
+
+// Defining a function
