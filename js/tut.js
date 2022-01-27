@@ -312,3 +312,9 @@ function myFunc (){
 }
 
 myFunc();
+
+
+var whole = "Hello World!"
+
+var length = whole.indexOf("World");
+console.log(length)
