@@ -256,3 +256,59 @@ console.log(board);
 
 
 // Defining a function
+const square = function (x)  {
+    return  x * x;
+} ;
+console.log(square(12));
+
+const makeNoise = function () {
+    console.log("Pling!")
+};
+makeNoise();
+
+const power = function (base, exponent)  {
+    let result = 1;
+    for (let count = 0; count < exponent; count++) {
+        result *= base;
+    }
+    return result;
+}; console.log(power(2, 10))
+
+
+document.getElementById("myDiv").style.background = "black";
+document.getElementById("myDiv").style.color = "#fff"
+
+
+var world = "World";
+
+function sayHello () {
+    var hello = "Hello ";
+    console.log(hello + world);
+}
+
+sayHello()
+
+var name = "Nnamdi Clement Azubuike.";
+
+function sayName () {
+    var sideHustle = " I am an intern at Side Hustle";
+    var hello = "Hello"
+    console.log(hello + ", My name is " + name + sideHustle)
+}
+
+sayName()
+
+
+// Shadowing a Variable
+
+var myColor = "Blue";
+console.log("myColor before myFunc()", myColor);
+
+
+function myFunc (){
+    var myColor = "Yellow"; 
+    // this is a shadowed variable
+    console.log("myColor inside myFunc()", myColor)
+}
+
+myFunc();
